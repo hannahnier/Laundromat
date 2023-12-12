@@ -245,7 +245,7 @@ main h2 {
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   -moz-background-position: center;
   -webkit-background-position: center;
   border: 5px solid var(--color2);
