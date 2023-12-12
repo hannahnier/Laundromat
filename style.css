@@ -228,7 +228,7 @@ main h2 {
 .hero {
   display: grid;
   gap: 30px;
-  grid-template: 400px / repeat(2, max(300px, 100%));
+  grid-template: repeat(2, 350px) / max(300px, 100%);
   justify-content: center;
   width: 100%;
   margin: calc(2vw + 10px) 0px;
@@ -236,7 +236,7 @@ main h2 {
 
 @media (min-width: 768px) {
   .hero {
-    grid-template-columns: repeat(2, 350px);
+    grid-template: 400px / repeat(2, 350px);
   }
 }
 
