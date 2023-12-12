@@ -236,8 +236,8 @@ main h2 {
 .hero-img {
   background-image: url("./img/home.jpg");
   border-radius: 50%;
-  width: 320px;
-  height: 320px;
+  /* width: 320px;
+  height: 320px; */
   display: inline-block;
   text-decoration: none;
   text-align: center;
