@@ -1,0 +1,66 @@
+.machine {
+  width: 140px;
+  height: 175px;
+  border: 1px solid hsl(237, 63%, 15%);
+  box-shadow: 5px -5px 20px 5px rgb(85, 85, 85);
+}
+
+.machine img {
+  position: absolute;
+  height: 120px;
+  z-index: 8;
+  top: -120px;
+}
+
+.machine-top {
+  background-color: rgb(161, 160, 160);
+  width: 100%;
+  height: 22%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.machine-bottom {
+  width: 100%;
+  height: 78%;
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.machine .bottom-outer {
+  background-color: #858ae3;
+  height: 70%;
+  width: 70%;
+  border-radius: 50%;
+  grid-area: 1/1/1/1;
+}
+
+.machine .bottom-inner {
+  height: 50%;
+  width: 50%;
+  border-radius: 47%;
+  grid-area: 1/1/1/1;
+  position: relative;
+}
+
+.machine .bottom-inner .shirt {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+@keyframes turn-around {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

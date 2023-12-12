@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="machines-style.css" />
+    <script
+      src="https://kit.fontawesome.com/fe8d65da9e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a href="home.html" class="logo">Laundromat</a>
+      <nav>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="visit-us.html">Visit us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- only for mobile/tablet: -->
+      <label for="toggle-switch" class="toggle-container">
+        <input type="checkbox" id="toggle-switch" />
+        <div id="sandwich-bar">
+          <ul>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="visit-us.html">Visit us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </label>
+    </header>
+
+    <main>
+      <h2>Services</h2>
+      <h3 class="services-subtitle">
+        Self-service or delivery? You choose. Visit us or contact us to settle
+        an appointment for pickup at home.
+      </h3>
+      <section class="cards-container">
+        <div class="double-card">
+          <div class="card">
+            <i class="fa-solid fa-water fa-3x"></i>
+            <!-- icons eventuell für mobile an die seite machen -->
+            <h3>Do your laundry</h3>
+            <p>Come visit us and do your laundry yourself!</p>
+            <p>
+              Thanks to our speedy, state-of-the-art machines, your items will
+              be cleaned and dry in no time.
+            </p>
+          </div>
+          <label for="more-info-switch1" class="more-info-click">
+            <input type="checkbox" id="more-info-switch1" />Prices
+            <div class="card-extra">
+              <p>
+                Wash:
+                <span class="text-small"
+                  >(Self-service, 10kg max, including detergent)</span
+                >
+              </p>
+              <p><span class="text-bold">$6</span></p>
+              <p>
+                Dry:
+                <span class="text-small"
+                  >(Self-service, 15kg max, 12 minutes)</span
+                >
+              </p>
+              <p>
+                <span class="text-bold">$4</span>
+              </p>
+              <i class="fa-regular fa-eye-slash"></i></div
+          ></label>
+        </div>
+
+        <div class="double-card">
+          <div class="card">
+            <i class="fa-solid fa-jug-detergent fa-3x"></i>
+            <h3>Dry cleaning</h3>
+            <p>You want to dry clean your favourite dress?</p>
+            <p>Take it to our store and we will take care of it for you.</p>
+          </div>
+          <label for="more-info-switch2" class="more-info-click">
+            <input type="checkbox" id="more-info-switch2" />Prices
+            <div class="card-extra">
+              <p>
+                Dry-cleaning:
+                <span class="text-small">(per item, pickup at the store)</span>
+              </p>
+              <p><span class="text-bold">$6</span></p>
+              <i class="fa-regular fa-eye-slash"></i></div
+          ></label>
+        </div>
+
+        <div class="double-card">
+          <div class="card">
+            <i class="fa-solid fa-shirt fa-3x"></i>
+            <h3>Laundry & Ironing Service</h3>
+            <p>Too busy to come to our store? No problem.</p>
+            <p>
+              With our Laundry & Ironing Service, we pick everything up at your
+              place and return it within 2 days.
+            </p>
+          </div>
+          <label for="more-info-switch3" class="more-info-click">
+            <input type="checkbox" id="more-info-switch3" />Prices
+            <div class="card-extra">
+              <p>
+                Wash:
+                <span class="text-small">(Pickup-Service, per 6kg)</span>
+              </p>
+              <p><span class="text-bold">$18</span></p>
+              <p>
+                Wash & Iron:
+                <span class="text-small">(Pickup-Service, per 6kg)</span>
+              </p>
+              <p>
+                <span class="text-bold">$25</span>
+              </p>
+              <i class="fa-regular fa-eye-slash"></i></div
+          ></label>
+        </div>
+
+        <div class="double-card">
+          <div class="card">
+            <i class="fa-solid fa-truck-fast fa-3x"></i>
+            <h3>Express service</h3>
+            <p>It is urgent?</p>
+            <p>
+              Use our Express Service for laundry and ironing and get your clean
+              items back at the same day.
+            </p>
+          </div>
+          <label for="more-info-switch4" class="more-info-click">
+            <input type="checkbox" id="more-info-switch4" />Prices
+            <div class="card-extra">
+              <p>
+                Wash & iron:
+                <span class="text-small">(per 6kg, pickup until 12am)</span>
+              </p>
+              <p><span class="text-bold">$24</span></p>
+              <i class="fa-regular fa-eye-slash"></i></div
+          ></label>
+        </div>
+      </section>
+
+      <!-- laundry animation -->
+      <section class="laundry-animation">
+        <div class="anima-title">
+        <h3 class="services-subtitle">
+          Still undecided? Let's start with some
+          <span>virtual</span> laundry.
+        </h3></div>
+
+        <label for="anima-switch" class="anima-container">
+          <input type="checkbox" id="anima-switch" />
+          <div class="anima-symbol"></div>
+
+          <div class="anima-box">
+          <div class="contact-bubbles">
+            <div class="bubble bubble1"></div>
+            <div class="bubble bubble2"></div>
+            <div class="bubble bubble3"></div>
+          </div>
+
+          <div class="machine">
+            <div class="machine-top"></div>
+            <div class="machine-bottom">
+              <div class="bottom-outer"></div>
+              <div class="bottom-inner">
+                <i class="shirt fa-solid fa-shirt fa-3x"></i>
+              </div></div>
+            </div>
+          </div>
+        </label>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-all">
+        <div class="location-container">
+          <h3>Laundromat</h3>
+          <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>15 Main St, London</p>
+            <!--  f3c5-->
+          </div>
+
+          <div class="location">
+            <i class="fa-solid fa-envelope"></i>
+            <p>info@laundromat.com</p>
+            <!-- f0e0 -->
+          </div>
+          <div class="location">
+            <i class="fa-solid fa-phone"></i>
+            <p>020-XXX XXX</p>
+            <!-- f095 -->
+          </div>
+        </div>
+        <div class="opening-hours">
+          <h3>Opening hours</h3>
+          <p>Mon-Fr: 6am-10pm</p>
+          <p>Sat: 8am-10pm</p>
+          <p>Sun: 10am-8pm</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

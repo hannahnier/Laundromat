@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="machines-style.css" />
+    <script
+      src="https://kit.fontawesome.com/fe8d65da9e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a href="home.html" class="logo">Laundromat</a>
+      <nav>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="visit-us.html">Visit us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- only for mobile/tablet: -->
+      <label for="toggle-switch" class="toggle-container">
+        <input type="checkbox" id="toggle-switch" />
+        <div id="sandwich-bar">
+          <ul>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="visit-us.html">Visit us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </label>
+    </header>
+
+    <main>
+      <h2>Contact us</h2>
+
+      <div class="form-container">
+        <form action="" method="POST">
+          <label for="name">Full Name</label
+          ><input
+            type="text"
+            name="name"
+            id="name"
+            autofocus
+            placeholder="First Last"
+            required
+          />
+
+          <label for="email">Email</label
+          ><input type="email" name="email" id="email" required />
+
+          <label for="number">Phone <span>(optional)</span></label
+          ><input type="text" name="number" id="number" />
+
+          <label for="subject">Subject</label>
+          <select name="subject" id="subject">
+            <option value="store">Self-service Laundry</option>
+            <option value="dryclean">Dry Cleaning</option>
+            <option value="service">Laundry & Ironing Service</option>
+            <option value="express">Express Service</option>
+            <option value="other">Other</option>
+          </select>
+          <label for="message">Your Message</label>
+          <textarea name="message" id="message" cols="30" rows="8"></textarea>
+
+          <input class="form-button" type="submit" />
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-all">
+        <div class="location-container">
+          <h3>Laundromat</h3>
+          <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>15 Main St, London</p>
+            <!--  f3c5-->
+          </div>
+
+          <div class="location">
+            <i class="fa-solid fa-envelope"></i>
+            <p>info@laundromat.com</p>
+            <!-- f0e0 -->
+          </div>
+          <div class="location">
+            <i class="fa-solid fa-phone"></i>
+            <p>020-XXX XXX</p>
+            <!-- f095 -->
+          </div>
+        </div>
+        <div class="opening-hours">
+          <h3>Opening hours</h3>
+          <p>Mon-Fr: 6am-10pm</p>
+          <p>Sat: 8am-10pm</p>
+          <p>Sun: 10am-8pm</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
