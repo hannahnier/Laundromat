@@ -236,11 +236,24 @@ main h2 {
 .hero-img {
   background-image: url("./img/home.jpg");
   background-size: cover;
-  -webkit-background-size: cover;
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
-  -ms-background-size: cover;
+  -ms-background-size: cover; */
   background-color: #97dffc;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-img2 {
+  background-image: url("./img/home.jpg");
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 3vw;
 }
 
 .hero-title {
