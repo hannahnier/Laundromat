@@ -231,6 +231,7 @@ main h2 {
   grid-template: repeat(3, 300px) / max(300px, 100%);
   justify-content: center;
   width: 100%;
+  border-radius: 50%;
   margin: calc(2vw + 10px) 0px;
 }
 
