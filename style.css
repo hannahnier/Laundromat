@@ -234,16 +234,16 @@ main h2 {
 }
 
 .hero-img {
+  display: inline-block;
   background-image: url("./img/home.jpg");
-  width: 320px;
-  height: 320px;
   background-size: cover;
-  -webkit-background-size: cover;
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
-  -ms-background-size: cover;
+  -ms-background-size: cover; */
   background-position: center;
   border-radius: 50%;
-  margin: 3vw;
+  text-decoration: none;
+  text-align: center;
 }
 
 .hero-title {
@@ -341,7 +341,7 @@ main h2 {
 }
 
 .overview-services {
-  background-image: url("./img/home.jpg");
+  background-image: url("./img/services.jpg");
 }
 
 .overview-visit {
