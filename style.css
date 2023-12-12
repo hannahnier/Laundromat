@@ -235,8 +235,8 @@ main h2 {
   display: flex;
   /* flex-wrap: wrap; */
   /* align-items: center; */
-  justify-content: space-evenly;
-  margin-top: 50px;
+  /* justify-content: space-evenly; */
+  /* margin-top: 50px; */
 }
 
 /* @media (min-width: 768px) {
