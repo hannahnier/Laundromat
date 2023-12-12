@@ -226,19 +226,15 @@ main h2 {
 /* Home: hero section */
 
 .hero {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 500px 500px;
   margin-top: 50px;
 }
 
 .hero-img {
   background-image: url("./img/home.jpg");
   border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  display: inline-block;
   text-decoration: none;
   text-align: center;
   background-size: cover;
