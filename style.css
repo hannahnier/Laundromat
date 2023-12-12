@@ -229,9 +229,9 @@ main h2 {
   display: grid;
   gap: 30px;
   grid-template: repeat(2, 350px) / max(300px, 100%);
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
-  margin: calc(2vw + 10px) 0px;
+  margin: 100px 0px;
 }
 
 @media (min-width: 768px) {
