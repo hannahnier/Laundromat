@@ -235,7 +235,6 @@ main h2 {
 
 .hero-img {
   background-image: url("./img/home.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
