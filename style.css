@@ -233,17 +233,17 @@ main h2 {
   width: 100%;
   margin: 100px 0px; */
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
   justify-content: space-evenly;
   margin-top: 50px;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .hero {
     grid-template: 400px / repeat(2, 350px);
   }
-}
+} */
 
 .hero-img {
   background-image: url("./img/home.jpg");
