@@ -236,9 +236,6 @@ main h2 {
 .hero-img {
   background-image: url("./img/home.jpg");
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -ms-background-size: cover;
   border-radius: 50%;
   width: 320px;
   height: 320px;
