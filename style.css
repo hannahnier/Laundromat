@@ -228,7 +228,7 @@ main h2 {
 .hero {
   display: grid;
   gap: 30px;
-  grid-template: repeat(3, 300px) / max(300px, 100%);
+  grid-template: 400px / repeat(2, max(300px, 100%));
   justify-content: center;
   width: 100%;
   margin: calc(2vw + 10px) 0px;
@@ -243,7 +243,9 @@ main h2 {
 .hero-img {
   background-image: url("./img/home.jpg");
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
+  -moz-background-position: center;
+  -webkit-background-position: center;
   border: 5px solid var(--color2);
   border-radius: 50%;
 }
