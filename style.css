@@ -226,12 +226,17 @@ main h2 {
 /* Home: hero section */
 
 .hero {
-  display: grid;
+  /* display: grid;
   gap: 30px;
   grid-template: repeat(2, 350px) / max(300px, 100%);
   justify-content: space-evenly;
   width: 100%;
-  margin: 100px 0px;
+  margin: 100px 0px; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
 }
 
 @media (min-width: 768px) {
