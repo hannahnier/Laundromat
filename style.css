@@ -243,6 +243,8 @@ main h2 {
 .hero-img {
   background-image: url("./img/home.jpg");
   background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   background-position: center;
   -moz-background-position: center;
   -webkit-background-position: center;
