@@ -235,7 +235,6 @@ main h2 {
 
 .hero-img {
   background-image: url("./img/home.jpg");
-  background-repeat: no-repeat;
   width: 320px;
   height: 320px;
   background-size: cover;
@@ -342,7 +341,7 @@ main h2 {
 }
 
 .overview-services {
-  background-image: url("./img/services.jpg");
+  background-image: url("./img/home.jpg");
 }
 
 .overview-visit {
