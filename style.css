@@ -234,16 +234,13 @@ main h2 {
 }
 
 .hero-img {
-  display: inline-block;
   background-image: url("./img/home.jpg");
   background-size: cover;
-  /* -webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
-  -ms-background-size: cover; */
-  background-position: center;
+  -ms-background-size: cover;
+  background-color: #97dffc;
   border-radius: 50%;
-  text-decoration: none;
-  text-align: center;
 }
 
 .hero-title {
