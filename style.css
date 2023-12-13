@@ -1,7 +1,6 @@
 @import url(https://fonts.bunny.net/css?family=alatsi:400|almarai:400|caveat-brush:400);
 
 :root {
-  /* font-family noch einfügen */
   font-family: sans-serif;
   --color1: #858ae3;
   --color2: #f7ede2;
@@ -80,7 +79,7 @@ header .toggle-container li a {
   padding: 0.5rem 1.7rem;
   margin: 0.5rem;
   border-radius: 0.5em;
-  background-color: var(--color4);
+  background-color: var(--color2);
   font-size: 1.3rem;
   text-decoration: none;
   color: var(--color7);
@@ -138,6 +137,10 @@ form .form-button:hover,
 #sandwich-bar li {
   padding: 0.5rem;
   z-index: 5;
+}
+
+#sandwich-bar li a {
+  background-color: var(--color4);
 }
 
 #toggle-switch:checked + #sandwich-bar ul {
@@ -239,12 +242,14 @@ main h2 {
 .home-line i.shirt:hover,
 .home-line i.socks:hover {
   animation: bounce 1.5s ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 @keyframes bounce {
   0% {
     transform: rotateX(0deg);
     transform-origin: top;
+    cursor: grabbing;
   }
   30% {
     transform: rotateX(-60deg);
@@ -257,10 +262,12 @@ main h2 {
   75% {
     transform: rotateX(120deg);
     transform-origin: top;
+    cursor: default;
   }
   100% {
     transform: rotateX(0deg);
     transform-origin: top;
+    cursor: default;
   }
 }
 
@@ -309,8 +316,8 @@ img.hero-img {
 
 .hero-bubble {
   margin: 2em 0em;
-  background-color: hsl(1, 81%, 68%);
-  color: var(--color2);
+  background-color: var(--color5);
+  color: var(--color7);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 50%;
 }
@@ -414,10 +421,31 @@ img.hero-img {
   border-radius: 1rem;
   justify-items: center;
   transition: transform 0.5s;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::after {
+  content: "Self-service";
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: -15px -50px;
+  width: 150px;
+  height: 80px;
+  transform: rotate(315deg);
+  font-size: 1.1em;
+  background-color: var(--color6);
 }
 
 .double-card:nth-child(n + 3) .card {
   background-image: linear-gradient(135deg, var(--color1), var(--color3));
+}
+
+.double-card:nth-child(n + 3) .card::after {
+  content: "Home pickup";
 }
 
 .card:hover {
