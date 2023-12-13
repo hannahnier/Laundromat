@@ -118,10 +118,10 @@ main {
 .machine3 .machine-top {
   background-color: var(--color5);
 }
-.machine3 .machine-top * {
+.machine3 .machine-top i {
   color: var(--color8);
   font-size: 2em;
-  animation: quick-flash 1.8s 2.5s infinite;
+  animation: quick-flash 1.8s 2.2s infinite;
 }
 
 @keyframes quick-flash {
@@ -129,7 +129,7 @@ main {
     transform: scale(1);
   }
   40% {
-    transform: scale(1.18);
+    transform: scale(1.2);
   }
 
   80% {
