@@ -198,7 +198,6 @@ main h2 {
   font-family: sans-serif;
   font-size: 0.3em;
   color: transparent;
-  animation: popup 20s 5s infinite;
 }
 
 .home-line i.shirt p::after {
@@ -583,6 +582,10 @@ img.hero-img {
   display: none;
 }
 
+.anima-symbol {
+  animation: flash 4s infinite;
+}
+
 .anima-symbol::after {
   content: "\f144";
   font-family: "FontAwesome";
@@ -858,12 +861,13 @@ footer p {
   footer .footer-all {
     width: 50%;
   }
+  .home-line i.shirt p {
+    animation: popup 20s 5s infinite;
+  }
   .home-container {
     grid-template-columns: 1fr 1fr;
   }
-  .anima-symbol {
-    animation: flash 4s infinite;
-  }
+
   .cards-container {
     grid-template-columns: repeat(2, minmax(300px, 1fr));
     max-width: 620px;
