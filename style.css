@@ -242,14 +242,12 @@ main h2 {
 .home-line i.shirt:hover,
 .home-line i.socks:hover {
   animation: bounce 1.5s ease-in-out;
-  animation-fill-mode: forwards;
 }
 
 @keyframes bounce {
   0% {
     transform: rotateX(0deg);
     transform-origin: top;
-    cursor: grabbing;
   }
   30% {
     transform: rotateX(-60deg);
@@ -262,12 +260,10 @@ main h2 {
   75% {
     transform: rotateX(120deg);
     transform-origin: top;
-    cursor: default;
   }
   100% {
     transform: rotateX(0deg);
     transform-origin: top;
-    cursor: default;
   }
 }
 
