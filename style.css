@@ -18,6 +18,16 @@
   color: var(--color7);
 }
 
+/* Farbe für Textmarkierungen */
+::selection {
+  background: var(--color1);
+  color: var(--color2);
+}
+::-moz-selection {
+  background: var(--color1);
+  color: var(--color2);
+}
+
 /* HEADER */
 
 body {
