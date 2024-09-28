@@ -18,7 +18,7 @@ Laundromat is not your average laundromat website. It's a playground of cool, yo
 
 ## Preview
 
-![Laundromat Preview](./img/screenshot_laundromat.png)
+![Laundromat Preview](./img/screenshot_laundromatNew.png)
 
 ## Take a look
 
