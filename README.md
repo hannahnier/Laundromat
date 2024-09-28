@@ -16,10 +16,10 @@ Laundromat is not your average laundromat website. It's a playground of cool, yo
 - **Responsive Layout**: This website is designed to adapt seamlessly to various screen sizes, ensuring an optimal viewing experience across devices.
 - **Interactive Elements**: While restricting everything to HTML and CSS only, interactive elements have been incorporated for enhanced user engagement.
 
+## Preview
+
+![Laundromat Preview](./img/screenshot_laundromat.png)
+
 ## Take a look
 
 To explore it yourself, simply access [Laundromat's website](https://hannahnier.github.io/Laundromat/) and do some virtual laundry there. Cheers from Laundromat! 🧺🌟
-
-## Preview
-
-![London Laundromat Preview](./img/screenshot_laundromat.png)
